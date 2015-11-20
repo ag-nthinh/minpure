@@ -1,0 +1,9 @@
+<?php
+    //うちナビ広告ID
+    define('UCHINAVI_ADVERTISEMENT_ID','7024');
+    //NTTコンサルティング広告ID（店舗
+    define('SHOP_ADVERTISEMENT_ID','7010');
+    //NTTコンサルティング広告KEY（店舗
+    define('SHOP_ADVERTISEMENT_KEY','123456');
+    //NTTコンサルティング広告ID（WEB
+    define('NTT_ADVERTISEMENT_ID','7011');
