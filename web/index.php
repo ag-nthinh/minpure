@@ -25,14 +25,14 @@
 <div id="header">
 <div class="headerMain">
 <h1>FXを検討中＆FX初心者のみなさま！円安トレンドの今　最大のFXチャンスを逃すな！</h1>
-<p class="logo"><a href="/"><img width="451" height="57" alt="FXで勝つ為に！最新の人気FXを徹底比較" src="img/header_logo.gif" /></a></p>
+<p class="logo"><a href="/"><img width="451" height="57" alt="FXで勝つ為に！最新の人気FXを徹底比較" src="img/title.png" /></a></p>
 </div>
 <p class="headerBanner"><a title="投資家が選んだ最新FXランキング" href="/ninki/"><img width="468" height="60" border="0" src="img/banner_ranking_468x60.gif" alt="" /></a></p>
 </div>
 <div id="mainBox">
 <div class="mainColumn">
 <div class="pointSearchBox">
-<h2 class="mainImage"><img width="158" height="153" alt="" src="img/img_top_mainimage1.jpg" /> <img width="512" height="153" alt="4つのポイントから選ぶFX会社選び" src="img/img_top_mainimage2.gif" /></h2>
+<h2 class="mainImage"><!-- <img width="158" height="153" alt="" src="img/img_top_mainimage1.jpg" /> --> <img width=auto height=auto alt="4つのポイントから選ぶFX会社選び" src="img/search.jpeg"/></h2>
 <ul>
 <li><a href="/type/small/"><img width="165" height="92" alt="少額スタート" src="img/img_top_point_search_btn_small.gif" class="imgRo" /></a></li>
 <li><a href="/type/useful/"><img width="165" height="92" alt="使いやすさ重視" src="img/img_top_point_search_btn_useful.gif" class="imgRo" /></a></li>
@@ -286,7 +286,7 @@ so.write("swf");
 </ul>
 </div>
 </div>
-<div id="footer">
+<!-- <div id="footer">
 <p class="logo"><a href="/"><img src="img/img_footer_logo.gif" alt="FXで勝つ為に！最新の人気FXを徹底比較" height="57" width="199" /></a></p>
 <div class="footerMenu">
 <div class="search">
@@ -329,7 +329,7 @@ so.write("swf");
 </div>
 </div>
 <p class="copy">Copyright(C)&nbsp;2015&nbsp;FXで勝つ為に！最新の人気FXを徹底比較</p>
-</div>
+</div> -->
 </div>
 <div style=" height: 1px; padding: 0px; margin: 0px; display: block; overflow: hidden;"><script language="JavaScript" type="text/javascript" xml:space="preserve">
 //<![CDATA[
