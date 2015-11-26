@@ -1,2 +1,0 @@
-# minpure
-minpure.com/fxec
