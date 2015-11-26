@@ -1,0 +1,107 @@
+.table01{
+border-collapse: collapse;
+border-right: 1px solid #999;
+}
+.table01 th{
+padding: 7px;
+text-align: center;
+vertical-align: top;
+color: #fff;
+background-color: #555;
+border-left: 5px solid #ff6633; 
+border-top: 1px solid #fff;
+}
+
+.table01 td{
+padding: 6px;
+text-align: center;
+background-color: #fff;
+border-bottom: 1px solid #999;
+border-left: 1px solid #999;
+}
+
+.table01 td#anken {
+width: 65%;
+padding: 6px;
+background-color: #fff;
+border-bottom: 1px solid #999;
+border-left: 1px solid #999;
+}
+
+.table01 td#sale {
+width: 65%;
+padding: 6px;
+background-color: #fff;
+border-bottom: 1px solid #999;
+border-left: 1px solid #999;
+}
+
+
+h2 {
+  position: relative;
+  width: 550px;
+  color: #fff;
+  background: #38C38F;
+  font-size: 20px;
+  font-color: #fff;
+  line-height: 1;
+  margin: 30px 0 10px 0;
+  padding: 14px 5px 10px 40px;
+  box-shadow: 0 1px 3px #777;
+  border-radius: 0 10px 10px 0;
+}
+h2:before {
+  content: "";
+  position: absolute;
+  width: 550px;
+  background: #999;
+  top: 50%;
+  left: -20px;
+  margin-top :-22px;
+  height: 44px;
+  width: 44px;
+  box-shadow: 1px 1px 1px #777;
+  border-radius: 50%;
+}
+h2:after {
+  content: "";
+  width: 550px;
+  position: absolute;
+  background:#777;
+  top: 50%;
+  left: -15px;
+  margin-top:-15px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
+
+.button {
+	
+	background-color:#38C38F;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family:Arial;
+	font-size:14px;
+	padding:5px 28px;
+	text-decoration:none;
+	margin: 10px;
+}
+
+
+.button:hover {
+	background-color:#36BC89;
+}
+
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
