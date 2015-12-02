@@ -4,10 +4,10 @@
         require_once('ini_mail.php');
         date_default_timezone_set('Asia/Tokyo');
         //DB設定
-        define('DB_HOST','192.168.20.200');
-        define('DB_USER','ggg');
-        define('DB_PASS','X4trEn7C');
-        define('DB_NAME','adm_ggg_v1_production');
+        define('DB_HOST','localhost');
+        define('DB_USER','root');
+        define('DB_PASS','');
+        define('DB_NAME','cdg_v1_production');
         //ログディレクトリ設定
         define('LOG_DIR','/var/www/html/ggg_v1/public/logs/');
         define('LOG_DIRECTORY_PATH','/var/www/html/ggg_v1/public/logs/');

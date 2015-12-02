@@ -1,13 +1,16 @@
 CakePHP 3
 
-/vendor/*
-/config/app.php
-/tmp/*
-/logs/*
+web/vendor/*
+web/config/app.php
+web/tmp/*
+web/logs/*
 
 CakePHP 2
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+web/app/tmp/*
+web/app/Config/core.php
+web/app/Config/database.php
+web/vendors/*
+
+conf/*
+cron/*
