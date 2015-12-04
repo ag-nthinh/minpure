@@ -20,6 +20,27 @@
 <script type="text/javascript" src="js/swfobject.js">
 </script>
 </head>
+<?php
+  require_once(dirname(__FILE__).'/../conf/ini.php');
+  if(!$link = mysql_connect(DB_HOST, DB_USER, DB_PASS)) {
+    throw new Exception(mysql_error());
+  }
+  if(!mysql_select_db(DB_NAME, $link)) {
+    throw new Exception(mysql_error());
+  }
+  if(!mysql_query("SET NAMES 'utf8'",$link)) {
+    throw new Exception(mysql_error());
+  }
+  try{
+    $sql_all = "SELECT * FROM company_details";
+    if(!$result = mysql_query($sql_all, $link)){
+      throw new Exception($sql_all);
+    }
+    //$data = mysql_fetch_assoc($result);
+  } catch(Exception $e){
+    //CreateLog::putErrorLog(get_class()." ".$e->getMessage());
+  }
+?>
 <body>
 <div id="wrapper">
 <div id="header">
@@ -128,96 +149,120 @@
 /円</p>
 <span class="sortIcon"><a href="javascript:void(0);" class="ascend" data-query="order=3-audjpy&amp;sort=asc"><img width="19" height="13" alt="昇順" src="img/btn_sort_ascend.gif" /></a> <a href="javascript:void(0);" class="ascend" data-query="order=3-audjpy&amp;sort=desc"><img width="19" height="13" alt="降順" src="img/btn_sort_descend.gif" /></a></span></th>
 </tr>
-<tr>
-<td class="companyCol">
-<p class="companyName"><a target="_self" href="spec/clicksec/"><img width="120" height="60" alt="GMOクリック証券" src="banner/clicksec_120x60.gif" /><br />
-<span>GMOクリック証券</span></a></p>
-</td>
-<td>0.3銭<em class="note">原則固定</em></td>
-<td>0.6銭<em class="note">原則固定</em></td>
-<td>0.5P<em class="note">原則固定</em></td>
-<td>0.7銭<em class="note">原則固定</em></td>
-<td>最大<br />
-5,000円</td>
-<td>
-<p class="button"><a target="_self" href="spec/clicksec/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>
-</td>
-</tr>
-<tr>
-<td class="companyCol">
-<p class="companyName"><a target="_self" href="spec/gaitameonline/"><img width="120" height="60" alt="外為オンライン" src="banner/gaitameonline_120x60.gif" /><br />
-<span>外為オンライン</span></a></p>
-</td>
-<td>1銭<em class="note">原則固定</em></td>
-<td>2銭<em class="note">原則固定</em></td>
-<td>1P<em class="note">原則固定</em></td>
-<td>3銭<em class="note">原則固定</em></td>
-<td>最大<br />
-5,000円</td>
-<td>
-<p class="button"><a target="_self" href="spec/gaitameonline/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>
-</td>
-</tr>
-<tr>
-<td class="companyCol">
-<p class="companyName"><a target="_self" href="spec/cyberagentfx/"><img width="120" height="60" alt="ワイジェイFX" src="banner/cyberagentfx_120x60.gif" /><br />
-<span>ワイジェイFX</span></a></p>
-</td>
-<td>0.3銭<em class="note">原則固定</em><em class="note">※期間限定</em></td>
-<td>0.7銭<em class="note">原則固定</em><em class="note">※期間限定</em></td>
-<td>0.6P<em class="note">原則固定</em><em class="note">※期間限定</em></td>
-<td>0.8銭<em class="note">原則固定</em><em class="note">※期間限定</em></td>
-<td>最大<br />
-24,000円</td>
-<td>
-<p class="button"><a target="_self" href="spec/cyberagentfx/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>
-</td>
-</tr>
-<tr>
-<td class="companyCol">
-<p class="companyName"><a target="_self" href="spec/hirosefx/"><img width="120" height="60" alt="ヒロセ通商 LION FX" src="banner/hirosefx_120x60.gif" /><br />
-<span>ヒロセ通商 LION FX</span></a></p>
-</td>
-<td>0.3銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>0.6銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>0.5P<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>0.8銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>最大<br />
-10,000円</td>
-<td>
-<p class="button"><a target="_self" href="spec/hirosefx/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>
-</td>
-</tr>
-<tr>
-<td class="companyCol">
-<p class="companyName"><a target="_self" href="spec/minfx/"><img width="120" height="60" alt="みんなのFX" src="banner/minfx_120x60.gif" /><br />
-<span>みんなのFX</span></a></p>
-</td>
-<td>0.3銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>0.6銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>0.5P<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>0.7銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>最大<br />
-10,000円</td>
-<td>
-<p class="button"><a target="_self" href="spec/minfx/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>
-</td>
-</tr>
-<tr>
-<td class="companyCol">
-<p class="companyName"><a target="_self" href="spec/gaitamecom/"><img width="120" height="60" alt="外為どっとコム" src="banner/gaitamecom_120x60.gif" /><br />
-<span>外為どっとコム</span></a></p>
-</td>
-<td>0.3銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>0.6銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>0.5P<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>0.7銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>
-<td>最大<br />
-30,000円</td>
-<td>
-<p class="button"><a target="_self" href="spec/gaitamecom/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>
-</td>
-</tr>
+<?php
+  if (mysql_num_rows($result) > 0) {
+    // output data of each row
+    while($row = mysql_fetch_assoc($result)) {
+      echo "<tr>";
+      echo "<td class=\"companyCol\">";
+      echo "<p class=\"companyName\"><a target=\"_self\" href=\"spec\\";
+      echo $row['url'];
+      echo "\"><img width=\"120\" height=\"60\" alt=\"";
+      echo $row['name'];
+      echo "\" src=\"";
+      echo $row['img_url'];
+      echo "\" /><br />";
+      echo "<span>GMOクリック証券</span></a></p>";
+      echo "</td>";
+      echo "<td>";
+      echo $row['usd_jpy'];
+      echo "<em class=\"note\">原則固定</em></td>";
+      echo "<td>";
+      echo $row['euro_jpy'];
+      echo "<em class=\"note\">原則固定</em></td>";
+      echo "<td>";
+      echo $row['euro_usd'];
+      echo "<em class=\"note\">原則固定</em></td>";
+      echo "<td>";
+      echo $row['aud_jpy'];
+      echo "<em class=\"note\">原則固定</em></td>";
+      echo "<td>最大<br />";
+      echo $row['money'];
+      echo "</td>
+      <td>";
+      echo "<p class=\"button\"><a target=\"_self\" href=\"spec\\" ;
+      echo $row['url'];
+      echo "\"><img width=\"76\" height=\"41\" alt=\"詳細\" src=\"img/img_detail_button_large_76x41.gif\" class=\"imgRo\" /></a></p>";
+      echo "</td>";
+      echo "</tr>";
+    }
+  }
+?>
+<!--<tr>-->
+<!--<td class="companyCol">-->
+<!--<p class="companyName"><a target="_self" href="spec/gaitameonline/"><img width="120" height="60" alt="外為オンライン" src="banner/gaitameonline_120x60.gif" /><br />-->
+<!--<span>外為オンライン</span></a></p>-->
+<!--</td>-->
+<!--<td>1銭<em class="note">原則固定</em></td>-->
+<!--<td>2銭<em class="note">原則固定</em></td>-->
+<!--<td>1P<em class="note">原則固定</em></td>-->
+<!--<td>3銭<em class="note">原則固定</em></td>-->
+<!--<td>最大<br />-->
+<!--5,000円</td>-->
+<!--<td>-->
+<!--<p class="button"><a target="_self" href="spec/gaitameonline/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr>-->
+<!--<td class="companyCol">-->
+<!--<p class="companyName"><a target="_self" href="spec/cyberagentfx/"><img width="120" height="60" alt="ワイジェイFX" src="banner/cyberagentfx_120x60.gif" /><br />-->
+<!--<span>ワイジェイFX</span></a></p>-->
+<!--</td>-->
+<!--<td>0.3銭<em class="note">原則固定</em><em class="note">※期間限定</em></td>-->
+<!--<td>0.7銭<em class="note">原則固定</em><em class="note">※期間限定</em></td>-->
+<!--<td>0.6P<em class="note">原則固定</em><em class="note">※期間限定</em></td>-->
+<!--<td>0.8銭<em class="note">原則固定</em><em class="note">※期間限定</em></td>-->
+<!--<td>最大<br />-->
+<!--24,000円</td>-->
+<!--<td>-->
+<!--<p class="button"><a target="_self" href="spec/cyberagentfx/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr>-->
+<!--<td class="companyCol">-->
+<!--<p class="companyName"><a target="_self" href="spec/hirosefx/"><img width="120" height="60" alt="ヒロセ通商 LION FX" src="banner/hirosefx_120x60.gif" /><br />-->
+<!--<span>ヒロセ通商 LION FX</span></a></p>-->
+<!--</td>-->
+<!--<td>0.3銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>0.6銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>0.5P<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>0.8銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>最大<br />-->
+<!--10,000円</td>-->
+<!--<td>-->
+<!--<p class="button"><a target="_self" href="spec/hirosefx/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr>-->
+<!--<td class="companyCol">-->
+<!--<p class="companyName"><a target="_self" href="spec/minfx/"><img width="120" height="60" alt="みんなのFX" src="banner/minfx_120x60.gif" /><br />-->
+<!--<span>みんなのFX</span></a></p>-->
+<!--</td>-->
+<!--<td>0.3銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>0.6銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>0.5P<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>0.7銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>最大<br />-->
+<!--10,000円</td>-->
+<!--<td>-->
+<!--<p class="button"><a target="_self" href="spec/minfx/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
+<!--</td>-->
+<!--</tr>-->
+<!--<tr>-->
+<!--<td class="companyCol">-->
+<!--<p class="companyName"><a target="_self" href="spec/gaitamecom/"><img width="120" height="60" alt="外為どっとコム" src="banner/gaitamecom_120x60.gif" /><br />-->
+<!--<span>外為どっとコム</span></a></p>-->
+<!--</td>-->
+<!--<td>0.3銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>0.6銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>0.5P<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>0.7銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
+<!--<td>最大<br />-->
+<!--30,000円</td>-->
+<!--<td>-->
+<!--<p class="button"><a target="_self" href="spec/gaitamecom/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
+<!--</td>-->
+<!--</tr>-->
 </tbody>
 </table>
 </div>
