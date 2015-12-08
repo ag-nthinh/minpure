@@ -7,7 +7,7 @@
         define('DB_HOST','192.168.20.200');
         define('DB_USER','ggg');
         define('DB_PASS','X4trEn7C');
-        define('DB_NAME','adm_ggg_v1_production');
+        define('DB_NAME','fxe_v1_production');
         //ログディレクトリ設定
         define('LOG_DIR','/var/www/html/ggg_v1/public/logs/');
         define('LOG_DIRECTORY_PATH','/var/www/html/ggg_v1/public/logs/');
@@ -117,7 +117,7 @@
 
         /* Classのオートロード */
         spl_autoload_register(function($class) {
-            require_once(dirname(__FILE__).'/../class/' . $class . '.php');
+//            require_once(dirname(__FILE__).'/../class/' . $class . '.php');
         });
 /*
         spl_autoload_register(function($class) {
