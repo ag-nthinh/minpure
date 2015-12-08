@@ -1,5 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="language" content="ja" />
+<meta name="robots" content="index,follow" />
+<meta name="description" content="" />
 <link href="../../css/hikaku.css" rel="stylesheet" type="text/css" media="all" />
 <link href="../../css/index.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<?php
+  require_once(dirname(__FILE__).'/../../../conf/ini.php');
+  if(!$link = mysql_connect(DB_HOST, DB_USER, DB_PASS)) {
+    throw new Exception(mysql_error());
+  }
+  if(!mysql_select_db(DB_NAME, $link)) {
+    throw new Exception(mysql_error());
+  }
+  if(!mysql_query("SET NAMES 'utf8'",$link)) {
+    throw new Exception(mysql_error());
+  }
+  try{
+    $sql_all = "SELECT * FROM company_details WHERE company_details.url='clicksec'";
+    if(!$result = mysql_query($sql_all, $link)){
+      throw new Exception($sql_all);
+    }
+    $data = mysql_fetch_assoc($result);
+  } catch(Exception $e){
+    //CreateLog::putErrorLog(get_class()." ".$e->getMessage());
+  }
+?>
 <body id="hikakuBody" class="index">
   <div id="contents">
     <div id="main">
@@ -14,7 +48,7 @@
             <span><i class='img-star_full'></i><i class='img-star_full'></i><i class='img-star_full'></i><i class='img-star_full'></i><i class='img-star_half'></i></span>
           </div>
           <div class="score-wrap">
-            <strong>93</strong><span>点</span>
+            <strong><?php echo $data['point']; ?></strong><span>点</span>
           </div>
         </div><!-- /.main-rank_header -->
         <div class="total-rank_main">
@@ -24,15 +58,15 @@
               <caption>評価ポイント</caption>
               <tr>
                 <th><i class="img-point1"></i></th>
-                <td>世界取引量No1！不動の<strong>人気No1</strong>FX会社</td>
+                <td><?php echo $data['point_text1']; ?></td>
               </tr>
               <tr>
                 <th><i class="img-point2"></i></th>
-                <td><strong>スプレッド(手数料)の安さ</strong>おすすめ6社中1位</td>
+                <td><?php echo $data['point_text2']; ?></td>
               </tr>
               <tr>
                 <th><i class="img-point3"></i></th>
-                <td>プロにも人気の使いやすい取引ツール！</td>
+                <td><?php echo $data['point_text3']; ?></td>
               </tr>
             </table>
             <a href="http://click.actbank.net/click/?com=clicksec&pt=497" title="GMOクリック証券 公式サイトで口座開設" rel="nofollow" target="_blank"><div class="btn_conversion"><span>公式サイトで口座開設</span></div></a>
@@ -41,7 +75,7 @@
         <div class="total-rank_comment">
           <div class="total-rank_comment-inner">
             <h3>GMOクリック証券 評価ポイントの詳細</h3>
-            <p>FX界の大手<strong>GMOクリック証券</strong>は2012～2014年の3年連続、取引高世界第1位となり圧倒的な存在感を放っています！<br>今回もスプレッド、取引ツールの２部門で1位にランクイン！自社開発で生み出される取引ツールはFXトレーダーなら1度は使ってみたいところ。2016年２月の新システムのお披露目に注目が集まります！毎日のテレビ番組「ビジネスクリック」、ラジオ番組「北野誠のFXやったるで！」の放送も見逃せません。また、FXだけでなく株、CFD、オプションから債券までなんでも取り揃えている商品力も魅力。<br>FX以外の魅力も豊富なGMOクリック証券で投資をスタートしてみませんか？</p>
+            <p><?php echo $data['description']; ?></p>
           </div>
         </div><!-- /.total-rank_comment -->
       </div><!-- /.total-rank -->
