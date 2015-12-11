@@ -117,6 +117,9 @@
             echo "<p><a href=\"edit.php?id=";
             echo $row['id'];
             echo "\">EDIT</a></p>";
+            echo "<br><p><a href=\"delete.php?id=";
+            echo $row['id'];
+            echo "\">DELETE</a></p>";
             echo "</td>";
             echo "</tr>";
           }

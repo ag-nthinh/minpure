@@ -78,7 +78,12 @@
       <p><input type="text" name="description" placeholder="Enter the description" required value="<?php echo $row['description'];?>" /></p>
       <p><input type="text" name="redirect_link" placeholder="Enter the short redirect link name" required value="<?php echo $row['redirect_link'];?>" /></p>
       <p><input type="text" name="short_name" placeholder="Enter the short view name" required value="<?php echo $row['short_name'];?>" /></p>
-      <p><input name="submit" type="submit" value="Update" /></p>
+      <p></p>
+      <p>
+        <input name="submit" type="submit" value=" Update " style="color:#FF0000;" />
+        <input name="reset" type="reset" value=" Reset " style="color:#FF0000;" />
+        <button><a href="company.php"> Cancel </a></button>
+      </p>
     </form>
     <p style="color:#FF0000;"><?php echo $status; ?></p>
   </div>

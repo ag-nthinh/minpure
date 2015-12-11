@@ -72,7 +72,11 @@
     <p><input type="text" name="description" placeholder="Enter the description" required /></p>
     <p><input type="text" name="redirect_link" placeholder="Enter the short redirect link name" required /></p>
     <p><input type="text" name="short_name" placeholder="Enter the short view name" required /></p>
-    <p><input name="submit" type="submit" value="Submit" /></p>
+    <p>
+      <input name="submit" type="submit" value=" Submit " style="color:#FF0000;" />
+      <input name="reset" type="reset" value=" Reset " style="color:#FF0000;" />
+      <button><a href="company.php"> Cancel </a></button>
+    </p>
   </form>
   <p style="color:#FF0000;"><?php echo $status; ?></p>
   </div>
