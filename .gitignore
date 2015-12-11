@@ -4,6 +4,9 @@ web/vendor/*
 web/config/app.php
 web/tmp/*
 web/logs/*
+web/.htaccess
+conf/*
+php_errors.log
 
 CakePHP 2
 
