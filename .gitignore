@@ -4,6 +4,7 @@ CakePHP 3
 /config/app.php
 /tmp/*
 /logs/*
+conf/*
 
 CakePHP 2
 
