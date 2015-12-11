@@ -114,9 +114,9 @@
             echo $row['money'];
             echo "</td>
             <td>";
-            echo "<p class=\"button\"><a target=\"_self\" href=\"edit.php?id=";
+            echo "<p><a href=\"edit.php?id=";
             echo $row['id'];
-            echo "\"><img width=\"76\" height=\"41\" alt=\"EDIT\" src=\"img/img_detail_button_large_76x41.gif\" class=\"imgRo\" /></a></p>";
+            echo "\">EDIT</a></p>";
             echo "</td>";
             echo "</tr>";
           }
