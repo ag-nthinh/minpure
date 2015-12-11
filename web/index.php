@@ -19,6 +19,19 @@
 </script>
 <script type="text/javascript" src="js/swfobject.js">
 </script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  $("#sortedtable").tablesorter({ sortlist: [0,0] });
+});
+</script>
+<style type="text/css">
+  #sortedtable thead th {
+    color: #00f;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+</style>
 </head>
 <?php
   require_once(dirname(__FILE__).'/../conf/ini.php');
@@ -121,48 +134,46 @@
 </div>
 <p class="banner"><a href="/ninki/"><img width="670" height="86" alt="総合人気FXランキング" src="img/banner_ranking_670x86.gif" /> <span>どこのFX口座を選ぶか迷っているなら、「現役トレーダーの評価」をそのままいただいちゃいましょう！</span></a></p>
 <div class="itemSortBlock">
-<table class="itemSortTable">
-<tbody>
+<table id="sortedtable" class="itemSortTable"> 
+<thead>
 <tr class="headingFirst">
 <th rowspan="2">FX会社</th>
-<th colspan="4">スプレッド</th>
+<th colspan="4" class="sorter-false">スプレッド</th>
 <th rowspan="2">キャッシュ<br />
 バック<br />
 金額</th>
-<th rowspan="2">&nbsp;</th>
+<th rowspan="2" class="sorter-false">&nbsp;</th>
 </tr>
 <tr class="headingSecond">
 <th>
 <p>米ドル<br />
 /円</p>
-<span class="sortIcon"><a href="javascript:void(0);" class="ascend" data-query="order=3-usdjpy&amp;sort=asc"><img width="19" height="13" alt="昇順" src="img/btn_sort_ascend.gif" /></a> <a href="javascript:void(0);" class="ascend" data-query="order=3-usdjpy&amp;sort=desc"><img width="19" height="13" alt="降順" src="img/btn_sort_descend.gif" /></a></span></th>
 <th>
 <p>ユーロ<br />
 /円</p>
-<span class="sortIcon"><a href="javascript:void(0);" class="ascend" data-query="order=3-eurjpy&amp;sort=asc"><img width="19" height="13" alt="昇順" src="img/btn_sort_ascend.gif" /></a> <a href="javascript:void(0);" class="ascend" data-query="order=3-eurjpy&amp;sort=desc"><img width="19" height="13" alt="降順" src="img/btn_sort_descend.gif" /></a></span></th>
 <th>
 <p>ユーロ<br />
 /米ドル</p>
-<span class="sortIcon"><a href="javascript:void(0);" class="ascend" data-query="order=3-eurusd&amp;sort=asc"><img width="19" height="13" alt="昇順" src="img/btn_sort_ascend.gif" /></a> <a href="javascript:void(0);" class="ascend" data-query="order=3-eurusd&amp;sort=desc"><img width="19" height="13" alt="降順" src="img/btn_sort_descend.gif" /></a></span></th>
 <th>
 <p>豪ドル<br />
 /円</p>
-<span class="sortIcon"><a href="javascript:void(0);" class="ascend" data-query="order=3-audjpy&amp;sort=asc"><img width="19" height="13" alt="昇順" src="img/btn_sort_ascend.gif" /></a> <a href="javascript:void(0);" class="ascend" data-query="order=3-audjpy&amp;sort=desc"><img width="19" height="13" alt="降順" src="img/btn_sort_descend.gif" /></a></span></th>
 </tr>
+</thead>
+<tbody>
 <?php
   if (mysql_num_rows($result) > 0) {
     // output data of each row
     while($row = mysql_fetch_assoc($result)) {
       echo "<tr>";
       echo "<td class=\"companyCol\">";
-      echo "<p class=\"companyName\"><a target=\"_self\" href=\"spec\\";
+      echo "<p class=\"companyName\"><a target=\"_self\" href=\"http://ad2.trafficgate.net/t/r/";
       echo $row['url'];
-      echo "\"><img width=\"120\" height=\"60\" alt=\"";
+      echo "/280656_349591/\"><img width=\"120\" height=\"60\" alt=\"";
       echo $row['name'];
-      echo "\" src=\"";
+      echo "\" src=\"http://srv2.trafficgate.net/t/b/";
       echo $row['img_url'];
-      echo "\" /><br />";
-      echo "<span>GMOクリック証券</span></a></p>";
+      echo "/280656_349591/\" /><br />";
+      echo "<span>".$row['name']."</span></a></p>";
       echo "</td>";
       echo "<td>";
       echo $row['usd_jpy'];
@@ -180,89 +191,14 @@
       echo $row['money'];
       echo "</td>
       <td>";
-      echo "<p class=\"button\"><a target=\"_self\" href=\"spec\\" ;
-      echo $row['url'];
+      echo "<p class=\"button\"><a target=\"_self\" href=\"details.php?name=";
+      echo $row['name'];
       echo "\"><img width=\"76\" height=\"41\" alt=\"詳細\" src=\"img/img_detail_button_large_76x41.gif\" class=\"imgRo\" /></a></p>";
       echo "</td>";
       echo "</tr>";
     }
   }
 ?>
-<!--<tr>-->
-<!--<td class="companyCol">-->
-<!--<p class="companyName"><a target="_self" href="spec/gaitameonline/"><img width="120" height="60" alt="外為オンライン" src="banner/gaitameonline_120x60.gif" /><br />-->
-<!--<span>外為オンライン</span></a></p>-->
-<!--</td>-->
-<!--<td>1銭<em class="note">原則固定</em></td>-->
-<!--<td>2銭<em class="note">原則固定</em></td>-->
-<!--<td>1P<em class="note">原則固定</em></td>-->
-<!--<td>3銭<em class="note">原則固定</em></td>-->
-<!--<td>最大<br />-->
-<!--5,000円</td>-->
-<!--<td>-->
-<!--<p class="button"><a target="_self" href="spec/gaitameonline/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
-<!--</td>-->
-<!--</tr>-->
-<!--<tr>-->
-<!--<td class="companyCol">-->
-<!--<p class="companyName"><a target="_self" href="spec/cyberagentfx/"><img width="120" height="60" alt="ワイジェイFX" src="banner/cyberagentfx_120x60.gif" /><br />-->
-<!--<span>ワイジェイFX</span></a></p>-->
-<!--</td>-->
-<!--<td>0.3銭<em class="note">原則固定</em><em class="note">※期間限定</em></td>-->
-<!--<td>0.7銭<em class="note">原則固定</em><em class="note">※期間限定</em></td>-->
-<!--<td>0.6P<em class="note">原則固定</em><em class="note">※期間限定</em></td>-->
-<!--<td>0.8銭<em class="note">原則固定</em><em class="note">※期間限定</em></td>-->
-<!--<td>最大<br />-->
-<!--24,000円</td>-->
-<!--<td>-->
-<!--<p class="button"><a target="_self" href="spec/cyberagentfx/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
-<!--</td>-->
-<!--</tr>-->
-<!--<tr>-->
-<!--<td class="companyCol">-->
-<!--<p class="companyName"><a target="_self" href="spec/hirosefx/"><img width="120" height="60" alt="ヒロセ通商 LION FX" src="banner/hirosefx_120x60.gif" /><br />-->
-<!--<span>ヒロセ通商 LION FX</span></a></p>-->
-<!--</td>-->
-<!--<td>0.3銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>0.6銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>0.5P<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>0.8銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>最大<br />-->
-<!--10,000円</td>-->
-<!--<td>-->
-<!--<p class="button"><a target="_self" href="spec/hirosefx/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
-<!--</td>-->
-<!--</tr>-->
-<!--<tr>-->
-<!--<td class="companyCol">-->
-<!--<p class="companyName"><a target="_self" href="spec/minfx/"><img width="120" height="60" alt="みんなのFX" src="banner/minfx_120x60.gif" /><br />-->
-<!--<span>みんなのFX</span></a></p>-->
-<!--</td>-->
-<!--<td>0.3銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>0.6銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>0.5P<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>0.7銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>最大<br />-->
-<!--10,000円</td>-->
-<!--<td>-->
-<!--<p class="button"><a target="_self" href="spec/minfx/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
-<!--</td>-->
-<!--</tr>-->
-<!--<tr>-->
-<!--<td class="companyCol">-->
-<!--<p class="companyName"><a target="_self" href="spec/gaitamecom/"><img width="120" height="60" alt="外為どっとコム" src="banner/gaitamecom_120x60.gif" /><br />-->
-<!--<span>外為どっとコム</span></a></p>-->
-<!--</td>-->
-<!--<td>0.3銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>0.6銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>0.5P<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>0.7銭<em class="note">原則固定</em><em class="note">※例外あり</em></td>-->
-<!--<td>最大<br />-->
-<!--30,000円</td>-->
-<!--<td>-->
-<!--<p class="button"><a target="_self" href="spec/gaitamecom/"><img width="76" height="41" alt="詳細" src="img/img_detail_button_large_76x41.gif" class="imgRo" /></a></p>-->
-<!--</td>-->
-<!--</tr>-->
 </tbody>
 </table>
 </div>
