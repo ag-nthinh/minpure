@@ -397,3 +397,50 @@
 [02-Dec-2015 02:15:44 UTC] PHP Fatal error:  Class 'CommonBase' not found in /home/ubuntu/workspace/minpure/class/RegisterAdvertisements.php on line 11
 [02-Dec-2015 02:15:44 UTC] PHP Stack trace:
 [02-Dec-2015 02:15:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/minpure/class/RegisterAdvertisements.php:0
+[11-Dec-2015 12:03:05 Asia/Tokyo] PHP Fatal error:  Class 'AffiTown' not found in /home/ubuntu/workspace/minpure/admin/promotions.php on line 31
+[11-Dec-2015 12:03:05 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:03:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[11-Dec-2015 12:03:08 Asia/Tokyo] PHP Fatal error:  Class 'Sales' not found in /home/ubuntu/workspace/minpure/admin/sales.php on line 50
+[11-Dec-2015 12:03:08 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:03:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[11-Dec-2015 12:03:15 Asia/Tokyo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/web/index.php on line 164
+[11-Dec-2015 12:03:15 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:03:15 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/web/index.php:0
+[11-Dec-2015 12:03:15 Asia/Tokyo] PHP   2. mysql_num_rows() /home/ubuntu/workspace/minpure/web/index.php:164
+[11-Dec-2015 12:03:39 Asia/Tokyo] PHP Fatal error:  Class 'AffiTown' not found in /home/ubuntu/workspace/minpure/admin/promotions.php on line 31
+[11-Dec-2015 12:03:39 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:03:39 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[11-Dec-2015 12:03:42 Asia/Tokyo] PHP Fatal error:  Class 'Sales' not found in /home/ubuntu/workspace/minpure/admin/sales.php on line 50
+[11-Dec-2015 12:03:42 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:03:42 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[11-Dec-2015 12:06:11 Asia/Tokyo] PHP Fatal error:  Class 'Sales' not found in /home/ubuntu/workspace/minpure/admin/exportcsv.php on line 4
+[11-Dec-2015 12:06:11 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:06:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/exportcsv.php:0
+[11-Dec-2015 12:08:15 Asia/Tokyo] PHP Fatal error:  Class 'Sales' not found in /home/ubuntu/workspace/minpure/admin/sales.php on line 50
+[11-Dec-2015 12:08:15 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:08:15 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[11-Dec-2015 12:08:40 Asia/Tokyo] PHP Fatal error:  Class 'AffiTown' not found in /home/ubuntu/workspace/minpure/admin/promotions.php on line 31
+[11-Dec-2015 12:08:40 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:08:40 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[11-Dec-2015 12:08:46 Asia/Tokyo] PHP Fatal error:  Class 'AffiTown' not found in /home/ubuntu/workspace/minpure/admin/promotions.php on line 31
+[11-Dec-2015 12:08:46 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:08:46 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[11-Dec-2015 12:08:46 Asia/Tokyo] PHP Fatal error:  Class 'AffiTown' not found in /home/ubuntu/workspace/minpure/admin/promotions.php on line 31
+[11-Dec-2015 12:08:46 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:08:46 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[11-Dec-2015 12:08:51 Asia/Tokyo] PHP Fatal error:  Class 'Sales' not found in /home/ubuntu/workspace/minpure/admin/sales.php on line 50
+[11-Dec-2015 12:08:51 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:08:51 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[11-Dec-2015 12:24:50 Asia/Tokyo] PHP Fatal error:  Class 'Sales' not found in /home/ubuntu/workspace/minpure/admin/sales.php on line 50
+[11-Dec-2015 12:24:50 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:24:50 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[11-Dec-2015 12:37:10 Asia/Tokyo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/web/index.php on line 156
+[11-Dec-2015 12:37:10 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 12:37:10 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/web/index.php:0
+[11-Dec-2015 12:37:10 Asia/Tokyo] PHP   2. mysql_num_rows(*uninitialized*) /home/ubuntu/workspace/minpure/web/index.php:156
+[11-Dec-2015 15:51:55 Asia/Tokyo] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/minpure/admin/insert.php on line 32
+[11-Dec-2015 15:51:55 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 15:51:55 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/insert.php:0
+[11-Dec-2015 15:52:22 Asia/Tokyo] PHP Fatal error:  Call to undefined function flash() in /home/ubuntu/workspace/minpure/admin/insert.php on line 32
+[11-Dec-2015 15:52:22 Asia/Tokyo] PHP Stack trace:
+[11-Dec-2015 15:52:22 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/insert.php:0
