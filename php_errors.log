@@ -1,0 +1,399 @@
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Warning:  mysql_connect(): Connection timed out in /home/ubuntu/workspace/minpure/class/CommonBase.php on line 65
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   4. mysql_connect() /home/ubuntu/workspace/minpure/class/CommonBase.php:65
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   6. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   6. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   6. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   5. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   5. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:44:54 Asia/Tokyo] PHP   5. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Warning:  mysql_connect(): Connection timed out in /home/ubuntu/workspace/minpure/class/CommonBase.php on line 65
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   4. mysql_connect() /home/ubuntu/workspace/minpure/class/CommonBase.php:65
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   6. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   6. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   6. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   5. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   5. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:03 Asia/Tokyo] PHP   5. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  mysql_connect(): Connection timed out in /home/ubuntu/workspace/minpure/class/CommonBase.php on line 65
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/Sales.php:16
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   4. mysql_connect() /home/ubuntu/workspace/minpure/class/CommonBase.php:65
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/Sales.php:16
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   6. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/Sales.php:16
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   6. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/Sales.php:16
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   6. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/Sales.php:20
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   5. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/Sales.php:20
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   5. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/Sales.php:20
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   5. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/minpure/class/Sales.php on line 45
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->countMonthlySales() /home/ubuntu/workspace/minpure/admin/sales.php:51
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. mysql_query() /home/ubuntu/workspace/minpure/class/Sales.php:45
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/minpure/class/Sales.php on line 604
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->countMonthlyExchange() /home/ubuntu/workspace/minpure/admin/sales.php:52
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. mysql_query() /home/ubuntu/workspace/minpure/class/Sales.php:604
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/minpure/class/Sales.php on line 307
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   2. Sales->countMonthlyAllPoints() /home/ubuntu/workspace/minpure/admin/sales.php:53
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   3. mysql_query() /home/ubuntu/workspace/minpure/class/Sales.php:307
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/minpure/admin/sales.php on line 56
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/minpure/admin/sales.php on line 60
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/minpure/admin/sales.php on line 67
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:08 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Warning:  mysql_connect(): Connection timed out in /home/ubuntu/workspace/minpure/class/CommonBase.php on line 65
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   4. mysql_connect() /home/ubuntu/workspace/minpure/class/CommonBase.php:65
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   6. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   6. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   6. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   5. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   5. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:45:11 Asia/Tokyo] PHP   5. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  mysql_connect(): Connection timed out in /home/ubuntu/workspace/minpure/class/CommonBase.php on line 65
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/Sales.php:16
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   4. mysql_connect() /home/ubuntu/workspace/minpure/class/CommonBase.php:65
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/Sales.php:16
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   6. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/Sales.php:16
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   6. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/Sales.php:16
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   6. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/Sales.php:20
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   5. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/Sales.php:20
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   5. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->__construct() /home/ubuntu/workspace/minpure/admin/sales.php:50
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/Sales.php:20
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   5. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/minpure/class/Sales.php on line 45
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->countMonthlySales() /home/ubuntu/workspace/minpure/admin/sales.php:51
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. mysql_query() /home/ubuntu/workspace/minpure/class/Sales.php:45
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/minpure/class/Sales.php on line 604
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->countMonthlyExchange() /home/ubuntu/workspace/minpure/admin/sales.php:52
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. mysql_query() /home/ubuntu/workspace/minpure/class/Sales.php:604
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/ubuntu/workspace/minpure/class/Sales.php on line 307
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   2. Sales->countMonthlyAllPoints() /home/ubuntu/workspace/minpure/admin/sales.php:53
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   3. mysql_query() /home/ubuntu/workspace/minpure/class/Sales.php:307
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/minpure/admin/sales.php on line 56
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/minpure/admin/sales.php on line 60
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/minpure/admin/sales.php on line 67
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:05 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/sales.php:0
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Warning:  mysql_connect(): Connection timed out in /home/ubuntu/workspace/minpure/class/CommonBase.php on line 65
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   4. mysql_connect() /home/ubuntu/workspace/minpure/class/CommonBase.php:65
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   6. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   6. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   3. CommonBase->connectDataBase() /home/ubuntu/workspace/minpure/class/AffiTown.php:16
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   4. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/CommonBase.php:79
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   5. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   6. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/error/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 91
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   5. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:91
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 93
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   5. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:93
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 94
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/promotions.php:0
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   2. AffiTown->__construct() /home/ubuntu/workspace/minpure/admin/promotions.php:31
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   3. CreateLog::putErrorLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:20
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   4. CreateLog::putLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:19
+[26-Nov-2015 13:46:11 Asia/Tokyo] PHP   5. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:94
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/debug/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 105
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:0
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   2. AffiTown->setNewPromotion() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:5
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   3. CreateLog::putDebugLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:202
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   4. CreateLog::putDebugLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:40
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   5. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:105
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 107
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:0
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   2. AffiTown->setNewPromotion() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:5
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   3. CreateLog::putDebugLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:202
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   4. CreateLog::putDebugLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:40
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   5. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:107
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 108
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:0
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   2. AffiTown->setNewPromotion() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:5
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   3. CreateLog::putDebugLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:202
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   4. CreateLog::putDebugLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:40
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   5. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:108
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Warning:  fopen(/var/www/html/ggg_v1/public/logs/debug/2015-11-26.log): failed to open stream: No such file or directory in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 105
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:0
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   2. AffiTown->setNewPromotion() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:5
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   3. CreateLog::putDebugLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:227
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   4. CreateLog::putDebugLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:40
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   5. fopen() /home/ubuntu/workspace/minpure/class/CreateLog.php:105
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 107
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:0
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   2. AffiTown->setNewPromotion() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:5
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   3. CreateLog::putDebugLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:227
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   4. CreateLog::putDebugLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:40
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   5. fwrite() /home/ubuntu/workspace/minpure/class/CreateLog.php:107
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/minpure/class/CreateLog.php on line 108
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP Stack trace:
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:0
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   2. AffiTown->setNewPromotion() /home/ubuntu/workspace/minpure/admin/setpromotion_end.php:5
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   3. CreateLog::putDebugLog() /home/ubuntu/workspace/minpure/class/AffiTown.php:227
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   4. CreateLog::putDebugLogFile() /home/ubuntu/workspace/minpure/class/CreateLog.php:40
+[26-Nov-2015 18:16:19 Asia/Tokyo] PHP   5. fclose() /home/ubuntu/workspace/minpure/class/CreateLog.php:108
+[02-Dec-2015 02:15:44 UTC] PHP Fatal error:  Class 'CommonBase' not found in /home/ubuntu/workspace/minpure/class/RegisterAdvertisements.php on line 11
+[02-Dec-2015 02:15:44 UTC] PHP Stack trace:
+[02-Dec-2015 02:15:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/minpure/class/RegisterAdvertisements.php:0

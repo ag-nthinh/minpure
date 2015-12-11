@@ -29,7 +29,7 @@
         define('PULLDOWN_TEXT_0','全て');
         define('PULLDOWN_TEXT_1','無料アプリ');
         define('PULLDOWN_TEXT_2','auスマートパス');
-        define('PULLDOWN_TEXT_3','docomo');
+        define('PULLDOWN_TEXT_3','App Pass');
         define('PULLDOWN_TEXT_4','会員登録');
         define('PULLDOWN_TEXT_5','高ポイント');
         define('PULLDOWN_TEXT_6','お店でためる');
