@@ -38,7 +38,7 @@
   <script type="text/javascript" src="js/swfobject.js">
   </script>
   <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
-    <script type="text/javascript">
+  <script type="text/javascript">
   $(document).ready(function() {
     $("#sortedtable").tablesorter({ sortlist: [0,0] });
   });
@@ -119,7 +119,7 @@
             echo "\">EDIT</a></p>";
             echo "<br><p><a href=\"delete.php?id=";
             echo $row['id'];
-            echo "\">DELETE</a></p>";
+            echo "\" onclick=\"return confirm('Are you sure?')\">DELETE</a></p>";
             echo "</td>";
             echo "</tr>";
           }
